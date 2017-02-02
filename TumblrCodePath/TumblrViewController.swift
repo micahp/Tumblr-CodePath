@@ -55,6 +55,7 @@ class TumblrViewController: UIViewController, UITableViewDataSource, UITableView
         let cell = tableView.dequeueReusableCell(withIdentifier: "tumblrCell") as! TumblrCell
         //        cell.label.text = "Row \(indexPath.row)"
         let post = posts[indexPath.row]
+        cell.label.text = post.value(forKeyPath: "slug") as? String
         if let photos = post["photos"] as? [NSDictionary] {
             let imageUrlString = photos[0].value(forKeyPath: "original_size.url") as? String
             if let imageURL = URL(string: imageUrlString!) {
@@ -67,7 +68,7 @@ class TumblrViewController: UIViewController, UITableViewDataSource, UITableView
         }
         
         
-        cell.label.text = "Row"
+        //cell.label.text = "Row"
         return cell
     }
     

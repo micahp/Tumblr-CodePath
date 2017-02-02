@@ -9,11 +9,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-<<<<<<< HEAD
-		<key>Pods-Tumblr-CodePath.xcscheme</key>
-=======
 		<key>Pods-TumblrCodePath.xcscheme</key>
->>>>>>> 722cb12... fix bug
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -21,20 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-<<<<<<< HEAD
-		<key>44026F448C7C91309460013BC6BB7D76</key>
-=======
 		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
->>>>>>> 722cb12... fix bug
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-<<<<<<< HEAD
-		<key>CF671F7E57B92905F1CC91D036D6B4A7</key>
-=======
 		<key>F38B1F41A64BA3CF9BBB21E9217A8435</key>
->>>>>>> 722cb12... fix bug
 		<dict>
 			<key>primary</key>
 			<true/>
